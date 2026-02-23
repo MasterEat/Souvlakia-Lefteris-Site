@@ -1,9 +1,9 @@
 :root {
-  --bg: #10150f;
-  --surface: #1a2118;
-  --surface-soft: #202920;
-  --text: #f3f0e6;
-  --muted: #d8cfb6;
+  --bg: #f8f1e3;
+  --surface: #f1e5d1;
+  --surface-soft: #f6ecdc;
+  --text: #2f2416;
+  --muted: #6a5a44;
   --brand-green: #3b5639;
   --brand-gold: #c2a85d;
   --ring: #e0c98a;
@@ -184,6 +184,7 @@ img {
   display: flex;
   align-items: center;
   background: linear-gradient(rgba(10, 12, 9, 0.55), rgba(10, 12, 9, 0.7));
+  color: #f8f1e3;
 }
 
 .hero-content {
@@ -351,7 +352,7 @@ button {
 
 input,
 textarea {
-  background: #121910;
+  background: #fffaf0;
   color: var(--text);
   border: 1px solid rgba(194, 168, 93, 0.35);
   border-radius: 0.6rem;
